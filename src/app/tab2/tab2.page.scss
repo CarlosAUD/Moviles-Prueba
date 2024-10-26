@@ -1,0 +1,37 @@
+.cv-img {
+  width: 100%; 
+  max-width: 200px; 
+  height: 200px; 
+  display: block;
+  margin: 0 auto; 
+  border-radius: 15px; 
+  overflow: hidden; 
+}
+
+.icon-text-col {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  margin-bottom: 10px; 
+}
+.responsive-icon {
+  margin-right: 8px; 
+  width: 24px; 
+  height: 24px; 
+}
+@media (max-width: 768px) {
+  .icon-text-col {
+      justify-content: center;
+      text-align: center;
+  }
+}
+
+.bio-container {
+  background-color: #fff;
+  padding: 2em;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0 auto; 
+}
