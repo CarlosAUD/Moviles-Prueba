@@ -10,6 +10,6 @@ export class Tab1Page {
   constructor() {}
 
   goToGitHub() {
-    window.open('https://github.com/tu-repositorio', '_blank'); 
+    window.open('https://github.com/CarlosAUD/Moviles-Prueba.git', '_blank'); 
   }
 }

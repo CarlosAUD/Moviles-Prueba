@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      <strong><em>Calculador de Dias</em></strong> 
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,25 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
+      <ion-title size="large">Calculador de Dias</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <div class="container">
+    <ion-item>
+      <ion-label><strong><em>Fecha de inicio</em> </strong> </ion-label>
+      <ion-datetime [(ngModel)]="startDate" displayFormat="MM/DD/YYYY"></ion-datetime>
+    </ion-item>
+
+    <ion-item>
+      <ion-label><strong><em>Fecha de fin</em></strong></ion-label>
+      <ion-datetime [(ngModel)]="endDate" displayFormat="MM/DD/YYYY"></ion-datetime>
+    </ion-item>
+
+    <ion-button expand="full" (click)="calculateDays()">Calcular Días</ion-button>
+
+    <div *ngIf="daysDifference !== null" class="result">
+      <p>Días entre las fechas: {{ daysDifference }}</p>
+    </div>
+  </div>
 </ion-content>
