@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Tab 2</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 2</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-item>
+    <ion-input placeholder="Ingresa cualquier texto" [(ngModel)]="inputText"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-button (click)="writeSecretFile(inputText)" shape="round" style="margin: 0 auto; font-weight: 700; font-size: 1em;">
+      Guardar en archivo txt
+    </ion-button>
+  </ion-item>
+</ion-content>
+
