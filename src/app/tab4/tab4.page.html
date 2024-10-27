@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Calcular Raices</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-card style="text-align: center;">
+  <ion-label style="font-size: 2em; font-weight: 800; ">ax² + bx + c</ion-label>
+</ion-card>
+
+<ion-content>
+  <form (ngSubmit)="calcularRaices()" #raicesForm="ngForm">
+    <ion-item>
+      <ion-label position="floating">Coeficiente a</ion-label>
+      <ion-input type="number" [(ngModel)]="a" name="a" required></ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-label position="floating">Coeficiente b</ion-label>
+      <ion-input type="number" [(ngModel)]="b" name="b" required></ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-label position="floating">Coeficiente c</ion-label>
+      <ion-input type="number" [(ngModel)]="c" name="c" required></ion-input>
+    </ion-item>
+    
+    <ion-button expand="full" type="submit">Calcular Raíces</ion-button>
+  </form>
+
+  <div *ngIf="raiz1 !== null && raiz2 !== null">
+    <h2>Resultados:</h2>
+    <p>Raíz 1: {{ raiz1 }}</p>
+    <p>Raíz 2: {{ raiz2 }}</p>
+  </div>
+
+  <div *ngIf="raiz1 === null && raiz2 === null">
+    <h2>Error:</h2>
+    <p>No son raices reales</p>
+  </div>
+</ion-content>
