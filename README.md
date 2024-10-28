@@ -1,6 +1,7 @@
-![image](https://github.com/user-attachments/assets/d825eb99-0b32-4323-b5a5-8e2936d9eef2)   PRUEBA DE APLICACIONES MOVILES   ![image](https://github.com/user-attachments/assets/dc58895a-6fb9-4b17-9dbf-d750a17688b6)
 
+![EPN-PNG](https://github.com/user-attachments/assets/b505e269-5cd2-4ab3-8641-c3412147529c)
 
+        PRUEBA DE APLICACIONES MOVILES
 
 Tab 1:
 Perfil donde se puede visualizar una foto del usuario y ademas el link que al presionar nos lleva a este repositorio
