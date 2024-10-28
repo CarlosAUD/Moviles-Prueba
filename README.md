@@ -1,3 +1,7 @@
+![image](https://github.com/user-attachments/assets/d825eb99-0b32-4323-b5a5-8e2936d9eef2)   PRUEBA DE APLICACIONES MOVILES   ![image](https://github.com/user-attachments/assets/dc58895a-6fb9-4b17-9dbf-d750a17688b6)
+
+
+
 Tab 1:
 Perfil donde se puede visualizar una foto del usuario y ademas el link que al presionar nos lleva a este repositorio
 ![image](https://github.com/user-attachments/assets/6835b83c-f556-450c-9562-c950f3d3f3f6)
@@ -21,11 +25,14 @@ Como ejemplo al seleccionar nos das 2 fechas nos da el resultado del mismo en la
 Tab 4
 
 En este apartado tenemos un apartado para calcular las raices
+
+
 ![image](https://github.com/user-attachments/assets/ead457cb-629e-4eae-b29a-25453499ca17)
 
 
 Tab 5 Tenemos 
 Un apartado para guardar archivos txt
+
 
 ![image](https://github.com/user-attachments/assets/d082cc06-7a96-468b-ac26-bc0f705ce6c4)
 
