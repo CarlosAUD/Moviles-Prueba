@@ -18,3 +18,14 @@ Como ejemplo al seleccionar nos das 2 fechas nos da el resultado del mismo en la
 
 ![image](https://github.com/user-attachments/assets/78443ff8-c771-4bed-b936-630771e11b02)
 
+Tab 4
+
+En este apartado tenemos un apartado para calcular las raices
+![image](https://github.com/user-attachments/assets/ead457cb-629e-4eae-b29a-25453499ca17)
+
+
+Tab 5 Tenemos 
+Un apartado para guardar archivos txt
+
+![image](https://github.com/user-attachments/assets/d082cc06-7a96-468b-ac26-bc0f705ce6c4)
+
